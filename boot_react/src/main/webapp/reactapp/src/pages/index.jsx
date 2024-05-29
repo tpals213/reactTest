@@ -1,6 +1,6 @@
-// index.jsx
+//index.jsx
 
-import {Container} from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const index = () => {
     return (

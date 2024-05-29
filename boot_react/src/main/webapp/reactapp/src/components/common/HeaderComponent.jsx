@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 class HeaderComponent extends Component {
   constructor(props) {
     super(props);
@@ -10,8 +11,8 @@ class HeaderComponent extends Component {
         <header>
           <nav className="navbar navbar-expand-md navbar-dark bg-dark">
             <div>
-              <a href="https://localhost:9999" className="navbar-brand">
-                Board-FullStackApp
+              <a href="https://localhost:3000" className="navbar-brand">                
+                게시글
               </a>
             </div>
           </nav>
@@ -20,4 +21,5 @@ class HeaderComponent extends Component {
     );
   }
 }
+
 export default HeaderComponent;

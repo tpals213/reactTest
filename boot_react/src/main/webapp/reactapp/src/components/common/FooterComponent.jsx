@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 class FooterComponent extends Component {
   constructor(props) {
     super(props);
@@ -8,10 +9,11 @@ class FooterComponent extends Component {
     return (
       <div>
         <footer className="footer">
-          <span className="text-muted">Started 2020 </span>
+          <span className="text-muted">copyright ict.org 2024. 05.</span>
         </footer>
       </div>
     );
   }
 }
+
 export default FooterComponent;
